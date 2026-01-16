@@ -28,7 +28,7 @@ function Hero() {
                     <br />
                     <span className="text-mint">rester</span>
                     <span className="text-white">, pas de </span>
-                    <span className="text-white line-through decoration-dark decoration-8">revenir</span>
+                    <span className="text-mint line-through decoration-dark decoration-8">revenir</span>
                     <span className="text-white line-through decoration-dark decoration-8"> en</span>
                     <br />
                     <span className="text-mint line-through decoration-dark decoration-8">arrière</span>
@@ -54,7 +54,7 @@ function Hero() {
                             Prendre RDV
                         </Button>
                         {/* Hand-drawn arrow and text */}
-                        <div className="absolute -bottom-18 -left-8 flex items-center gap-2">
+                        <div className="absolute -bottom-18 -left-8 flex items-center gap-2 animate-wiggle" style={{animationDelay: '1.8s'}}>
                             <img src={click} alt="Un ptit click?"/>
                         </div>
                     </div>
