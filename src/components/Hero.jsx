@@ -44,12 +44,14 @@ function Hero() {
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8">
                     <div className="relative">
-                        <Button
-                            variant="primary"
-                            icon={<FaCalendarAlt />}
-                        >
-                            Prendre RDV
-                        </Button>
+                        <a href="https://calendly.com/sampilahy-heriniavo/web-difference">
+                            <Button
+                                variant="primary"
+                                icon={<FaCalendarAlt />}
+                            >
+                                Prendre RDV
+                            </Button>
+                        </a>
                         {/* Hand-drawn arrow and text */}
                         <div className="absolute -bottom-18 -left-8 flex items-center gap-2">
                             <img src={click} alt="Un ptit click?"/>
