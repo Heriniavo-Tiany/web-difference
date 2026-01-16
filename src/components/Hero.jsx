@@ -1,4 +1,4 @@
-import { BsCalendar3, BsSearch } from 'react-icons/bs'
+import { FaCalendarAlt } from 'react-icons/fa'
 import { HiArrowDown } from 'react-icons/hi'
 import Button from './Button'
 import logoBulle from "../assets/img/logo_Bulle.png";
@@ -46,7 +46,7 @@ function Hero() {
                     <div className="relative">
                         <Button
                             variant="primary"
-                            icon={<BsCalendar3 />}
+                            icon={<FaCalendarAlt />}
                         >
                             Prendre RDV
                         </Button>
@@ -58,9 +58,9 @@ function Hero() {
 
                     <Button
                         variant="secondary"
-                        icon={<HiArrowDown />}
                     >
                         Découvrir nos projets
+                        <HiArrowDown />
                     </Button>
                 </div>
             </div>

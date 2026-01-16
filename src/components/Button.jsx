@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 
 function Button({ children, variant = 'primary', icon, onClick, className = '' }) {
-    const baseStyles = 'px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 flex items-center gap-3 shadow-lg hover:shadow-xl transform hover:scale-105'
+    const baseStyles = 'px-8 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 flex items-center gap-3 shadow-lg hover:shadow-xl transform hover:scale-105'
 
     const variants = {
         primary: 'bg-mint text-dark hover:bg-mint/90',
