@@ -17,7 +17,7 @@ function Hero() {
                 </div>
 
                 {/* Main Heading */}
-                <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-8 leading-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-8 leading-tight">
                     <span className="text-white">Votre </span>
                     <span className="text-mint">site</span>
                     <span className="text-white"> doit </span>
