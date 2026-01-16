@@ -61,6 +61,7 @@ function Hero() {
 
                     <Button
                         variant="secondary"
+                        onClick={() => navigate('/projects')}
                     >
                         Découvrir nos projets
                         <HiArrowDown />
