@@ -3,8 +3,10 @@ import { HiArrowDown } from 'react-icons/hi'
 import Button from './Button'
 import logoBulle from "../assets/img/logo_Bulle.png";
 import click from "../assets/img/Un_Ptit_Click.png";
+import { useNavigate } from 'react-router-dom'
 
 function Hero() {
+    const navigate = useNavigate()
     return (
         <div className="min-h-screen bg-gradient-to-b from-[#0a0a0a] via-[#1a1a1a] to-[#0a0a0a] flex items-center justify-center px-4 py-20">
             <div className="max-w-6xl mx-auto text-center">
@@ -44,14 +46,13 @@ function Hero() {
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8">
                     <div className="relative">
-                        <a href="https://calendly.com/sampilahy-heriniavo/web-difference">
-                            <Button
-                                variant="primary"
-                                icon={<FaCalendarAlt />}
-                            >
-                                Prendre RDV
-                            </Button>
-                        </a>
+                        <Button
+                            variant="primary"
+                            icon={<FaCalendarAlt />}
+                            onClick={() => navigate('/rendez-vous')}
+                        >
+                            Prendre RDV
+                        </Button>
                         {/* Hand-drawn arrow and text */}
                         <div className="absolute -bottom-18 -left-8 flex items-center gap-2">
                             <img src={click} alt="Un ptit click?"/>
