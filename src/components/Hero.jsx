@@ -44,7 +44,7 @@ function Hero() {
                 </p>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8">
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-18 sm:gap-6 mb-8">
                     <div className="relative">
                         <Button
                             variant="primary"

@@ -1,16 +1,112 @@
-# React + Vite
+# Test Technique – Intégration Frontend
+**TARAM Group**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Démo & Code source
 
-Currently, two official plugins are available:
+- **Démo en ligne (Netlify)** : https://web-difference.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Présentation du projet
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Ce projet a été réalisé dans le cadre d’un test technique frontend pour TARAM Group.  
+L’objectif principal était d’intégrer une **hero section en respectant strictement la maquette fournie**, tout en démontrant rapidité d’exécution, capacité d’adaptation et qualité du rendu.
 
-## Expanding the ESLint configuration
+Au-delà des exigences initiales, plusieurs améliorations ont été ajoutées afin d’enrichir l’expérience utilisateur, tout en respectant l’ADN graphique et fonctionnel du projet.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Aperçu
+
+![Hero Section](screenshots/screenshot1.png)
+![Rendez-vous Section](screenshots/screenshot2.png)
+![Projects Section](screenshots/screenshot3.png)
+
+
+## Technologies utilisées
+
+- **React** – Architecture orientée components pour une meilleure lisibilité
+- **Vite** – Environnement de développement rapide et performant
+- **Tailwind CSS** – Intégration pixel-perfect et responsive sans CSS superflu
+- **React Icons** – Icônes vectorielles légères et cohérentes
+- **Calendly (Embed)** – Prise de rendez-vous intégrée directement dans le site en respectant l'ADN du site
+- **Netlify** – Déploiement continu et accès immédiat au projet
+- **Git / GitHub** – Versioning propre avec commits structurés
+
+
+
+## Fonctionnalités
+
+### Exigences principales
+- Intégration fidèle à la maquette fournie
+- Interface entièrement responsive (mobile et desktop)
+- Découpage clair et maintenable des composants React
+- Utilisation maîtrisée de Tailwind CSS
+
+### Améliorations apportées
+- Animations et transitions subtiles pour améliorer l’expérience utilisateur
+- Intégration de Calendly en embedded, sans redirection externe
+- Création d’une page dédiée listant des projets réalisés (projets fictifs mais cohérents)
+- Déploiement sur Netlify afin de faciliter les tests et la revue
+- Attention portée à l’UX et aux bases de l’accessibilité
+
+
+
+## Approche technique
+
+- Architecture pensée pour être évolutive et maintenable
+- Approche mobile-first
+- Animations légères afin de préserver les performances
+- Respect strict de la direction artistique tout en ajoutant de la valeur
+- Utilisation raisonnée de l’IA comme accélérateur de productivité
+
+
+
+## Responsive design
+
+Le projet a été conçu selon une approche mobile-first, avec des ajustements progressifs pour les écrans plus larges afin de garantir une expérience fluide et cohérente sur tous les supports.
+
+
+
+## Installation et lancement du projet
+
+### Prérequis
+- Node.js (version LTS recommandée)
+- npm
+
+### Étapes pour tester le projet en local
+
+1. Cloner le repository
+```bash
+git clone https://github.com/Heriniavo-Tiany/web-difference.git
+```
+2. Accéder au dossier du projet
+```
+cd web-difference
+```
+3. Installer les dépendances
+```
+npm install
+```
+4. Lancer le serveur de développement
+```
+npm run dev
+```
+5. Ouvrir le projet dans le navigateur
+```
+http://localhost:5173
+```
+# Méthodologie et contraintes
+
+Le projet a été réalisé dans le contexte d’un test chronométré, avec une attention particulière portée à :
+
+- la rapidité d’exécution 
+- la précision visuelle 
+- la lisibilité du code 
+- une approche proche des conditions réelles de production
+
+# Conclusion
+
+Ce projet reflète ma manière de travailler en frontend :
+structurée, orientée produit, et attentive aux détails, même dans un contexte de temps limité.
+
+Merci pour votre temps et pour l’attention portée à ce travail.
