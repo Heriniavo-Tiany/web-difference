@@ -1,6 +1,8 @@
 import { BsCalendar3, BsSearch } from 'react-icons/bs'
 import { HiArrowDown } from 'react-icons/hi'
 import Button from './Button'
+import logoBulle from "../assets/img/logo_Bulle.png";
+import click from "../assets/img/Un_Ptit_Click.png";
 
 function Hero() {
     return (
@@ -8,7 +10,7 @@ function Hero() {
             <div className="max-w-6xl mx-auto text-center">
                 {/* Top Badge */}
                 <div className="inline-flex items-center gap-3 bg-white/95 backdrop-blur-sm rounded-full px-8 py-4 mb-16 shadow-2xl">
-                    <BsSearch className="text-mint text-3xl" />
+                    <img src={logoBulle} alt="Logo Bulle" className="w-8 h-8"/>
                     <h2 className="text-black text-xl md:text-2xl font-bold tracking-tight">
                         CRÉER UN SITE WEB <span className="underline decoration-4 underline-offset-4">VRAIMENT</span> UNIQUE
                     </h2>
@@ -24,10 +26,10 @@ function Hero() {
                     <br />
                     <span className="text-mint">rester</span>
                     <span className="text-white">, pas de </span>
-                    <span className="text-white line-through decoration-mint decoration-4">revenir</span>
-                    <span className="text-white"> en</span>
+                    <span className="text-white line-through decoration-dark decoration-8">revenir</span>
+                    <span className="text-white line-through decoration-dark decoration-8"> en</span>
                     <br />
-                    <span className="text-mint line-through decoration-white decoration-4">arrière</span>
+                    <span className="text-mint line-through decoration-dark decoration-8">arrière</span>
                     <span className="text-white">.</span>
                 </h1>
 
@@ -49,21 +51,8 @@ function Hero() {
                             Prendre RDV
                         </Button>
                         {/* Hand-drawn arrow and text */}
-                        <div className="absolute -bottom-16 left-0 flex items-center gap-2">
-                            <svg
-                                className="w-24 h-16 text-white"
-                                viewBox="0 0 100 60"
-                                fill="none"
-                                stroke="currentColor"
-                                strokeWidth="2"
-                                strokeLinecap="round"
-                            >
-                                <path d="M 10 10 Q 20 30, 40 35 T 70 45" />
-                                <path d="M 60 38 L 70 45 L 65 52" />
-                            </svg>
-                            <span className="text-white font-handwriting text-xl" style={{ fontFamily: 'cursive' }}>
-                Un p'tit click ?
-              </span>
+                        <div className="absolute -bottom-18 -left-8 flex items-center gap-2">
+                            <img src={click} alt="Un ptit click?"/>
                         </div>
                     </div>
 
